@@ -1,0 +1,44 @@
+.collections {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  position: relative;
+  width: 1200px;
+  margin: auto;
+
+  &__cards {
+    text-align: center;
+    z-index: 5;
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+
+    .collections__text {
+      .collections__secondsubtitle {
+        line-height: 26px;
+        text-align: center;
+        color: #333d4b;
+      }
+
+      .collections__subtitle {
+        line-height: 32px;
+        text-align: center;
+
+        color: #333d4b;
+      }
+    }
+  }
+  .collections__maintext {
+    opacity: 0.9;
+    position: absolute;
+    bottom: 200px;
+    left: 350px;
+  }
+}
+
+.collections__wrapper {
+  width: 100%;
+  margin-bottom: 70px;
+}
