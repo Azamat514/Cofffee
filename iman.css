@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about-section {
+  position: relative;
+  background: url(/Img/Group\ 7.png); 
+  color: #fff;
+  padding: 150px 50px;
+  margin: 50px 40px;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.commitment-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 50px;
+}
+
+.commitment-section img {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.commitment-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.commitment-text p {
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.img_man{
+    align-items: center;
+    justify-content: center;
+    right: 100px;
+}
