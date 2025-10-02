@@ -40,6 +40,8 @@ nav ul li a {
 .about-section {
   position: relative;
   background: url(/Img/Group\ 7.png); 
+  background-size:cover;
+  background-repeat: no-repeat;
   color: #fff;
   padding: 150px 50px;
   margin: 50px 40px;
