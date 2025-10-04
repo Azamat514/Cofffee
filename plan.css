@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fefcf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.hero {
+    background-image: url(./Group\ 7.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    height: 400px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  border-radius: 10px;
+  margin: 40px 60px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 14px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  background: #2c343e;
+  color: white;
+  padding: 40px;
+  margin: 40px 90px;
+  border-radius: 10px;
+}
+
+.step {
+width: 250px;
+height: 400px;
+}
+
+.step h2 {
+  font-size: 28px;
+  color: #0E8784;
+}
+
+.step h3 {
+  margin: 10px 0;
+}
+
+.questions {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.question {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.question-body {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.option {
+  flex: 1;
+  padding: 15px;
+  border-radius: 6px;
+  background: #f4f1eb;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.option.active {
+  background: #0E8784;
+  color: white;
+}
+
+.summary {
+  margin: 60px;
+  background: #2c343e;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.summary span {
+  color: #0E8784;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #0E8784;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #2c343e;
+  color: white;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfcf9;
+  padding: 40px;
+}
+
+.accordion {
+  max-width: 700px;
+  margin: auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-header .icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active .icon {
+  transform: rotate(180deg); /* tepaga qarab aylanadi */
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.option {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f4f1eb;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #0e8784;
+  color: #fff;
+}
+
+.option.selected {
+  background: #0e8784;
+  color: white;
+}
